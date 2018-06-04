@@ -4,6 +4,8 @@
  * @param {PhotoSphereViewer} psv - A PhotoSphereViewer object
  **/
 
+/*global PSVNavBarButton*/
+
 var PSVNavBar = function(psv) {
 	/**
 	 * Checks if a value exists in an array.
