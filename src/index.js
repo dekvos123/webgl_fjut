@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import "./assets/css/loader.css";
+import "./assets/css/styles.css";
 
 import * as THREE from './assets/js/three.min';
 window.THREE = THREE;
