@@ -20,6 +20,8 @@ import {
   address
 } from './constants';
 import AddressPicker from './components/AddressPicker';
+import bgLogo from './assets/img/fjut_logo.jpg';
+import fjutHeader from './assets/img/fjut_header.jpg';
 import Home from './containers/Home';
 import C5c6 from './containers/C5c6';
 import C1c2 from './containers/C1c2';
@@ -27,8 +29,22 @@ import Aside from './containers/Aside';
 import Square from './containers/Square';
 import TrackGround from './containers/TrackGround';
 import Daohang from './containers/Daohang';
-import bgLogo from './assets/img/fjut_logo.jpg';
-import fjutHeader from './assets/img/fjut_header.jpg';
+import CangxiaHu from './containers/CangxiaHu';
+import Fengyu from './containers/Fengyu';
+import D4D5 from './containers/D4D5';
+import E1E2 from './containers/E1E2';
+import Lib from './containers/Lib';
+import LibLeft from './containers/LibLeft';
+import LibRight from './containers/LibRight';
+import Zhizhen from './containers/Zhizhen';
+import E2E3 from './containers/E2E3';
+import F2 from './containers/F2';
+import Czheng from './containers/Czheng';
+import Azheng from './containers/Azheng';
+import Ezheng from './containers/Ezheng';
+import Fzheng from './containers/Fzheng';
+import B1 from './containers/B1';
+import B2 from './containers/B2';
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
@@ -133,6 +149,22 @@ export default class App extends Component {
             <Route path="/a_side" component={Aside} />
             <Route path="/square" component={Square} />
             <Route path="/track_ground" component={TrackGround} />
+            <Route path="/cangxia_hu" component={CangxiaHu} />
+            <Route path="/fengyu" component={Fengyu} />
+            <Route path="/e1e2" component={E1E2} />
+            <Route path="/d4d5" component={D4D5} />
+            <Route path="/lib" component={Lib} />
+            <Route path="/lib_left" component={LibLeft} />
+            <Route path="/lib_right" component={LibRight} />
+            <Route path="/zhizhen" component={Zhizhen} />
+            <Route path="/e2e3" component={E2E3} />
+            <Route path="/f2" component={F2} />
+            <Route path="/he_zheng" component={Czheng} />
+            <Route path="/a_zheng" component={Azheng} />
+            <Route path="/zhi_zheng" component={Ezheng} />
+            <Route path="/ren_zheng" component={Fzheng} />
+            <Route path="/jing_1" component={B1} />
+            <Route path="/jing_2" component={B2} />
             <Route path="/daohang" component={Daohang} navigation={this.state.navigation} />
             <Modal
               title="路线导航"
